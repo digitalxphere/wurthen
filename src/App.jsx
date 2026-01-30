@@ -1,8 +1,8 @@
 import Navigation from './components/Navigation'
 import HeroSection from './components/HeroSection'
-import ProductsSection from './components/ProductsSection'
-import DistributorsSection from './components/DistributorsSection'
-import AboutSection from './components/AboutSection'
+import CertificationSection from './components/CertificationSection'
+import CompatibilitySection from './components/CompatibilitySection'
+import DistributionSection from './components/DistributionSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 
@@ -12,9 +12,9 @@ function App() {
       <Navigation />
       <main>
         <HeroSection />
-        <ProductsSection />
-        <DistributorsSection />
-        <AboutSection />
+        <CertificationSection />
+        <CompatibilitySection />
+        <DistributionSection />
         <ContactSection />
       </main>
       <Footer />
