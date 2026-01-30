@@ -14,6 +14,7 @@ const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mpqrolob';
 export default function ContactSection() {
     const [formData, setFormData] = useState({
         nombre: '',
+        email: '',
         empresa: '',
         pais: '',
         whatsapp: '',
@@ -38,10 +39,12 @@ export default function ContactSection() {
                 },
                 body: JSON.stringify({
                     nombre: formData.nombre,
+                    email: formData.email,
                     empresa: formData.empresa,
                     pais: formData.pais,
                     whatsapp: formData.whatsapp,
                     _subject: `Nueva solicitud de distribución - ${formData.empresa} (${formData.pais})`,
+                    _replyto: formData.email,
                 }),
             });
 
@@ -59,7 +62,7 @@ export default function ContactSection() {
     };
 
     const handleNewRequest = () => {
-        setFormData({ nombre: '', empresa: '', pais: '', whatsapp: '' });
+        setFormData({ nombre: '', email: '', empresa: '', pais: '', whatsapp: '' });
         setStatus('idle');
     };
 
@@ -157,6 +160,23 @@ export default function ContactSection() {
                                         required
                                         className="w-full bg-[#f5f5f7] border-0 rounded-xl px-4 py-3.5 text-[#1d1d1f] placeholder-[#86868b] focus:ring-2 focus:ring-[#0071e3] transition-all"
                                         placeholder="Tu nombre"
+                                    />
+                                </div>
+
+                                {/* Email */}
+                                <div>
+                                    <label htmlFor="email" className="block text-sm font-medium text-[#1d1d1f] mb-2">
+                                        Email
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        required
+                                        className="w-full bg-[#f5f5f7] border-0 rounded-xl px-4 py-3.5 text-[#1d1d1f] placeholder-[#86868b] focus:ring-2 focus:ring-[#0071e3] transition-all"
+                                        placeholder="tu@empresa.com"
                                     />
                                 </div>
 
