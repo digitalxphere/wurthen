@@ -66,8 +66,8 @@ export default function ProductsSection() {
                         <span className="text-[#86868b]">Mucho más que metal.</span>
                     </h2>
                     <p className="text-xl text-[#86868b] max-w-2xl mx-auto">
-                        El secreto de Wurthen reside en las micras de precisión de nuestras válvulas
-                        y la calidad certificada de cada componente.
+                        Compatible con Bosch, Denso, Delphi, Siemens, CAT y Piezo.
+                        Cada componente certificado bajo estándares OEM.
                     </p>
                 </motion.div>
 
