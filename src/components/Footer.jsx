@@ -11,7 +11,7 @@ export default function Footer() {
                             Wurthen Diesel Systems USA
                         </p>
                         <p className="text-[#86868b] text-sm">
-                            Miami, FL — Aftermarket Certification Center
+                            Certified Aftermarket Components
                         </p>
                     </div>
 
