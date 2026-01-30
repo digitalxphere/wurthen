@@ -9,7 +9,7 @@ const countries = [
 
 // IMPORTANTE: Reemplaza este ID con tu ID de Formspree
 // Crea tu formulario gratis en https://formspree.io
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mpqrolob';
 
 export default function ContactSection() {
     const [formData, setFormData] = useState({
@@ -220,10 +220,10 @@ export default function ContactSection() {
                                         type="submit"
                                         disabled={status === 'sending'}
                                         className={`w-full py-4 rounded-xl text-lg font-medium transition-all duration-300 ${status === 'error'
-                                                ? 'bg-red-500 text-white'
-                                                : status === 'sending'
-                                                    ? 'bg-[#0071e3]/70 text-white cursor-wait'
-                                                    : 'bg-[#0071e3] text-white hover:bg-[#0077ed]'
+                                            ? 'bg-red-500 text-white'
+                                            : status === 'sending'
+                                                ? 'bg-[#0071e3]/70 text-white cursor-wait'
+                                                : 'bg-[#0071e3] text-white hover:bg-[#0077ed]'
                                             }`}
                                     >
                                         {status === 'idle' && 'Enviar Solicitud'}
