@@ -32,18 +32,26 @@ export default function HeroSection() {
                     <span className="text-[#86868b]">La Certificación del Aftermarket.</span>
                 </motion.h1>
 
-                {/* Subheadline */}
-                <motion.p
+                {/* Subheadline with Products */}
+                <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
-                    className="text-xl md:text-2xl text-[#6e6e73] max-w-3xl mx-auto mb-16 leading-relaxed"
+                    className="max-w-3xl mx-auto mb-10"
                 >
-                    Ingeniería de precisión para sistemas
-                    <strong className="text-[#1d1d1f]"> Bosch</strong>,
-                    <strong className="text-[#1d1d1f]"> Denso</strong> y
-                    <strong className="text-[#1d1d1f]"> Delphi</strong>.
-                </motion.p>
+                    <p className="text-xl md:text-2xl text-[#6e6e73] leading-relaxed mb-6">
+                        Inyectores, Toberas, Válvulas Solenoides y Kits de Reparación
+                    </p>
+                    <p className="text-lg text-[#86868b]">
+                        Compatible con sistemas
+                        <strong className="text-[#1d1d1f]"> Bosch</strong>,
+                        <strong className="text-[#1d1d1f]"> Denso</strong>,
+                        <strong className="text-[#1d1d1f]"> Delphi</strong>,
+                        <strong className="text-[#1d1d1f]"> Continental Siemens</strong>,
+                        <strong className="text-[#1d1d1f]"> CAT</strong> y
+                        <strong className="text-[#1d1d1f]"> Piezo</strong>.
+                    </p>
+                </motion.div>
 
                 {/* Hero Image */}
                 <motion.div

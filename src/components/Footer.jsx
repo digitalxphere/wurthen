@@ -33,7 +33,7 @@ export default function Footer() {
                 <div className="border-t border-white/10 pt-8">
                     <p className="text-xs text-[#6e6e73] text-center">
                         © {currentYear} Wurthen Diesel Systems USA. Todos los derechos reservados.
-                        Bosch, Denso y Delphi son marcas registradas de sus respectivos propietarios.
+                        Bosch, Denso, Delphi, Continental Siemens, CAT y Piezo son marcas registradas de sus respectivos propietarios.
                     </p>
                 </div>
             </div>
