@@ -17,12 +17,12 @@ export default function DistributionSection() {
                             DISTRIBUCIÓN LATAM
                         </p>
                         <h2 className="text-4xl md:text-5xl font-semibold text-[#1d1d1f] tracking-tight leading-tight mb-6">
-                            Desde Miami.
+                            Logística ágil.
                             <br />
                             <span className="text-[#86868b]">Para toda la región.</span>
                         </h2>
                         <p className="text-xl text-[#6e6e73] leading-relaxed mb-8">
-                            Nuestra ubicación estratégica en Miami nos permite ofrecer tiempos de entrega
+                            Nuestra red logística desde Estados Unidos nos permite ofrecer tiempos de entrega
                             competitivos a todo Latinoamérica, con soporte técnico bilingüe y documentación
                             completa para importación.
                         </p>

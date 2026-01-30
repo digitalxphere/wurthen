@@ -54,8 +54,8 @@ export default function CertificationSection() {
                         <span className="text-[#86868b]">Certificamos ingeniería.</span>
                     </h2>
                     <p className="text-xl text-[#6e6e73] max-w-2xl mx-auto">
-                        Nuestro proceso de validación en Miami garantiza estándares OEM o superiores
-                        para cada componente que sale de nuestras instalaciones.
+                        Cada componente pasa por nuestro riguroso proceso de validación
+                        para garantizar estándares OEM o superiores.
                     </p>
                 </motion.div>
 
@@ -109,8 +109,8 @@ export default function CertificationSection() {
                             <p className="text-sm text-[#6e6e73]">Estándares o superior</p>
                         </div>
                         <div className="text-center">
-                            <p className="text-4xl md:text-5xl font-semibold text-[#1d1d1f] mb-2">Miami</p>
-                            <p className="text-sm text-[#6e6e73]">Centro de certificación</p>
+                            <p className="text-4xl md:text-5xl font-semibold text-[#1d1d1f] mb-2">Wurthen</p>
+                            <p className="text-sm text-[#6e6e73]">Sello de calidad</p>
                         </div>
                         <div className="text-center">
                             <p className="text-4xl md:text-5xl font-semibold text-[#1d1d1f] mb-2">ISO</p>
